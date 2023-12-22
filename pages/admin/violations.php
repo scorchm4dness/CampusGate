@@ -16,16 +16,16 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
-  <!-- DataTables -->
-  <link rel="stylesheet" href="../../plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-  <link rel="stylesheet" href="../../plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
-  <link rel="stylesheet" href="../../plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
-
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+ <!-- Font Awesome -->
+ <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+ <!-- Theme style -->
+ <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+ <script src="js/scripts.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+ <script src="assets/demo/chart-area-demo.js"></script>
+ <script src="assets/demo/chart-bar-demo.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
 </head>
 <body class="sidebar-mini layout-fixed" style="height: auto;">
 
@@ -164,9 +164,46 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
                     </div>
                 </main>
     </div>
-    <?php 
+ <!-- Main content -->
+<section class="content">
+     <div class="container-fluid">
+       <div class="row">
+         <div class="col-md-6">
+
+         </div>
+         <!-- /.col (RIGHT) -->
+       </div>
+       <!-- /.row -->
+     </div><!-- /.container-fluid -->
+   </section>
+   <!-- /.content -->
+ </div>
+ <!-- /.content-wrapper -->
+ <?php 
 include "template/footer.php"; 
 ?>
+
+
+ <!-- Control Sidebar -->
+ <aside class="control-sidebar control-sidebar-dark">
+   <!-- Add Content Here -->
+ </aside>
+ <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="../../plugins/chart.js/Chart.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- Page specific script -->
+<!-- Add the following script after the existing script -->
+
 
 
 
