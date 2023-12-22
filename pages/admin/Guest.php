@@ -157,9 +157,46 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
                 </main>
                 
     </div>
-    <?php 
+   <!-- Main content -->
+<section class="content">
+     <div class="container-fluid">
+       <div class="row">
+         <div class="col-md-6">
+
+         </div>
+         <!-- /.col (RIGHT) -->
+       </div>
+       <!-- /.row -->
+     </div><!-- /.container-fluid -->
+   </section>
+   <!-- /.content -->
+ </div>
+ <!-- /.content-wrapper -->
+ <?php 
 include "template/footer.php"; 
 ?>
+
+
+ <!-- Control Sidebar -->
+ <aside class="control-sidebar control-sidebar-dark">
+   <!-- Add Content Here -->
+ </aside>
+ <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="../../plugins/chart.js/Chart.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- Page specific script -->
+<!-- Add the following script after the existing script -->
+
 
 
 
