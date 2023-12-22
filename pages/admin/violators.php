@@ -211,7 +211,9 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
   <!-- /.content-wrapper -->
  
 <!-- Page specific script -->
-
+<?php 
+include "template/footer.php"; 
+?>
 <script>
   $(function () {
 
